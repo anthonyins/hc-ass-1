@@ -29,11 +29,12 @@ h1 {
   margin-right: 10px;
   display: inline-block;
   box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
-}
-.top-nav a:hover {
+  &:hover {
   /* background-color: rgba(0, 0, 0, 0.498); */
   opacity: 0.5; /** Saydamlik verdik*/
   color: red;
+}
+
 }
 
 #about {
