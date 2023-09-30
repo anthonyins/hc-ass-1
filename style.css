@@ -16,6 +16,11 @@ h1 {
   color: white;
   font-family: "Bungee Shade", cursive;
 }
+.top-nav {
+  top: 10px;
+  position: sticky;
+  z-index: 1;
+}
 
 .top-nav a {
   text-decoration: none;
@@ -166,10 +171,16 @@ textarea {
   color: white;
   border-radius: 10px;
   padding: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
   width: 100px;
   font-weight: 700;
   margin-bottom: 10px;
   margin-right: 10px;
   display: inline-block;
   box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.top-up:hover{
+  background-color: orangered;
 }
